@@ -6,5 +6,6 @@ func main() {
 	// for_loop()
 	// if_else()
 	// switch_golang()
-	arrays()
+	// arrays()
+	slices_example()
 }
