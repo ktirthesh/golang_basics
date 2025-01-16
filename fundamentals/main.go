@@ -4,5 +4,6 @@ func main() {
 	// variables()
 	// constants()
 	// for_loop()
-	if_else()
+	// if_else()
+	switch_golang()
 }
