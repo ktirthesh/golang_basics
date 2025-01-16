@@ -5,5 +5,6 @@ func main() {
 	// constants()
 	// for_loop()
 	// if_else()
-	switch_golang()
+	// switch_golang()
+	arrays()
 }
