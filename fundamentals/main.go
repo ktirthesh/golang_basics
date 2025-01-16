@@ -3,5 +3,6 @@ package main
 func main() {
 	// variables()
 	// constants()
-	for_loop()
+	// for_loop()
+	if_else()
 }
