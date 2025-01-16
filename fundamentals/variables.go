@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func variables() {
 	var a = "hello"
 	fmt.Println("a is ", a)
 
@@ -14,5 +14,4 @@ func main() {
 
 	var e bool
 	fmt.Println("e is :", e)
-
 }
