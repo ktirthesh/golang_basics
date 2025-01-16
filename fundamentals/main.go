@@ -2,5 +2,6 @@ package main
 
 func main() {
 	// variables()
-	constants()
+	// constants()
+	for_loop()
 }
