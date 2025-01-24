@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func arrays() {
+func Arays() {
 	fmt.Println("the array in golang")
 	var a [5]int
 	fmt.Println("the intial value of a ", a)

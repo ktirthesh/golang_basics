@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func slices_example() {
+func Sices_example() {
 	fmt.Println("the slics in golang")
 	var s []string
 	fmt.Println("uninit", s, s == nil, len(s) == 0)
