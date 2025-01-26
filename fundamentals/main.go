@@ -17,5 +17,8 @@ func main() {
 	// string_and_rums()
 	// struct_golang()
 	// methods_with_struct()
-	interfaces_golang()
+	// interfaces_golang()
+	// enum_golang()
+	// struct_embeding_golang()
+	generics_golang()
 }
