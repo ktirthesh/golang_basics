@@ -20,5 +20,14 @@ func main() {
 	// interfaces_golang()
 	// enum_golang()
 	// struct_embeding_golang()
-	generics_golang()
+	// generics_golang()
+	// range_over_iteration_golang()
+	// Errorsgolang()
+	// custom_error_golang()
+	// coroutine_golang()
+	// channels_golang()
+	// channel_buffering_golang()
+	// channel_sync_golang()
+	channel_directions_golang()
+
 }
