@@ -7,5 +7,6 @@ func main() {
 	// if_else()
 	// switch_golang()
 	// arrays()
-	slices_example()
+	// slices_example()
+	// maps_golang()
 }
