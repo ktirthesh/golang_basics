@@ -13,5 +13,7 @@ func main() {
 	// closures_golang()
 	// recursion_golang()
 	// range_over_builtin_types_golang()
-	pointers_golng()
+	// pointers_golng()
+	// string_and_rums()
+	struct_golang()
 }
