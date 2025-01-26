@@ -9,4 +9,9 @@ func main() {
 	// arrays()
 	// slices_example()
 	// maps_golang()
+	// vardic_function_golang()
+	// closures_golang()
+	// recursion_golang()
+	// range_over_builtin_types_golang()
+	pointers_golng()
 }
