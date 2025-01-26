@@ -15,5 +15,7 @@ func main() {
 	// range_over_builtin_types_golang()
 	// pointers_golng()
 	// string_and_rums()
-	struct_golang()
+	// struct_golang()
+	// methods_with_struct()
+	interfaces_golang()
 }
