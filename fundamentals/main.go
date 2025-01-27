@@ -1,6 +1,12 @@
 package main
 
+import (
+	"fmt"
+	"time"
+)
+
 func main() {
+	start := time.Now()
 	// variables()
 	// constants()
 	// for_loop()
@@ -34,6 +40,10 @@ func main() {
 	// channel_non_blocking_golang()
 	// channel_closing_golang()
 	// channel_range_golang()
-	channel_timer_golang()
+	// channel_timer_golang()
+	// channels_tickers_golang()
+	worker_pool_golang()
 
+	elapsed := time.Since(start)
+	fmt.Println("time  required :", elapsed)
 }
