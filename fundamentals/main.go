@@ -28,6 +28,12 @@ func main() {
 	// channels_golang()
 	// channel_buffering_golang()
 	// channel_sync_golang()
-	channel_directions_golang()
+	// channel_directions_golang()
+	// channel_select_golang()
+	// channel_timeout_golang()
+	// channel_non_blocking_golang()
+	// channel_closing_golang()
+	// channel_range_golang()
+	channel_timer_golang()
 
 }
