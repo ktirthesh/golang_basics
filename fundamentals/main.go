@@ -12,6 +12,12 @@ func main() {
 	// for_loop()
 	// if_else()
 	// switch_golang()
+	// Arays()
+	// Sices_example()
+	// Maps_golang()
+	// function_call_golang()
+	// multiple_return_value_golang()
+
 	// arrays()
 	// slices_example()
 	// maps_golang()
