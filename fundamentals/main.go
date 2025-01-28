@@ -42,8 +42,10 @@ func main() {
 	// channel_range_golang()
 	// channel_timer_golang()
 	// channels_tickers_golang()
-	worker_pool_golang()
+	// worker_pool_golang()
+	// channels_rate_limiting_golang()
+	waitgroup_golang()
 
 	elapsed := time.Since(start)
-	fmt.Println("time  required :", elapsed)
+	fmt.Println("total execution time :", elapsed)
 }
