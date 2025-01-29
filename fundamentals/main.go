@@ -56,7 +56,8 @@ func main() {
 	// stateful_goroutine_golang()
 	// slices_sorting_golang()
 	// sorting_by_function_golang()
-	panic_golang()
+	// panic_golang()
+	defer_golang()
 
 	PrintMemUsage()
 	elapsed := time.Since(start)
