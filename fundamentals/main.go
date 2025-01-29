@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"runtime"
 	"time"
 )
 
@@ -17,7 +18,6 @@ func main() {
 	// Maps_golang()
 	// function_call_golang()
 	// multiple_return_value_golang()
-
 	// arrays()
 	// slices_example()
 	// maps_golang()
@@ -50,8 +50,22 @@ func main() {
 	// channels_tickers_golang()
 	// worker_pool_golang()
 	// channels_rate_limiting_golang()
-	waitgroup_golang()
+	// waitgroup_golang()
+	// atomic_counter_golang()
+	// mutex_golang()
+	// stateful_goroutine_golang()
+	// slices_sorting_golang()
+	sorting_by_function_golang()
 
+	PrintMemUsage()
 	elapsed := time.Since(start)
 	fmt.Println("total execution time :", elapsed)
+}
+func PrintMemUsage() {
+	var m runtime.MemStats
+	runtime.ReadMemStats(&m)
+	fmt.Printf("Alloc = %v MiB", m.Alloc/1024/1024)
+	fmt.Printf("\tTotalAlloc = %v MiB", m.TotalAlloc/1024/1024)
+	fmt.Printf("\tSys = %v MiB", m.Sys/1024/1024)
+	fmt.Printf("\tNumGC = %v\n", m.NumGC)
 }
