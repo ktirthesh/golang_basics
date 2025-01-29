@@ -57,7 +57,10 @@ func main() {
 	// slices_sorting_golang()
 	// sorting_by_function_golang()
 	// panic_golang()
-	defer_golang()
+	// defer_golang()
+	// recover_golang()
+	// string_function_golang()
+	string_formatting_golang()
 
 	PrintMemUsage()
 	elapsed := time.Since(start)
