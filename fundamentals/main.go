@@ -61,7 +61,9 @@ func main() {
 	// recover_golang()
 	// string_function_golang()
 	// string_formatting_golang()
-	text_template_golang()
+	// text_template_golang()
+	// regular_expression_golang()
+	json_golang()
 
 	PrintMemUsage()
 	elapsed := time.Since(start)
