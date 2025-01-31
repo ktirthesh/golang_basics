@@ -69,7 +69,9 @@ func main() {
 	// epoch_golng()
 	// random_number_golang()
 	// number_parsing()
-	url_parsing()
+	// url_parsing()
+	// sha256hash_golang()
+	base64_encode_golang()
 
 	PrintMemUsage()
 	elapsed := time.Since(start)
