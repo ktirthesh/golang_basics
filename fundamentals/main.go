@@ -68,7 +68,8 @@ func main() {
 	// time_golang()
 	// epoch_golng()
 	// random_number_golang()
-	number_parsing()
+	// number_parsing()
+	url_parsing()
 
 	PrintMemUsage()
 	elapsed := time.Since(start)
