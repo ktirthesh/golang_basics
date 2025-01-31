@@ -39,5 +39,4 @@ func time_golang() {
 	p(diff.Nanoseconds())
 	p(then.Add(diff))
 	p(then.Add(-diff))
-
 }
