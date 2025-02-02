@@ -71,7 +71,8 @@ func main() {
 	// number_parsing()
 	// url_parsing()
 	// sha256hash_golang()
-	base64_encode_golang()
+	// base64_encode_golang()
+	reading_files_golang()
 
 	PrintMemUsage()
 	elapsed := time.Since(start)
