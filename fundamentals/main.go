@@ -72,7 +72,10 @@ func main() {
 	// url_parsing()
 	// sha256hash_golang()
 	// base64_encode_golang()
-	reading_files_golang()
+	// reading_files_golang()
+	// writing_files_golang()
+	// line_filter_golang()
+	file_paths_golang()
 
 	PrintMemUsage()
 	elapsed := time.Since(start)
