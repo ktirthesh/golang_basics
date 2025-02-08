@@ -75,7 +75,9 @@ func main() {
 	// reading_files_golang()
 	// writing_files_golang()
 	// line_filter_golang()
-	file_paths_golang()
+	// file_paths_golang()
+	// direcrtories_golang()
+	temp_file_and_dirs_golang()
 
 	PrintMemUsage()
 	elapsed := time.Since(start)
